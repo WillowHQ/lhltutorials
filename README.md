@@ -9,7 +9,7 @@ thing to take away from this is that if you find yourself doing anything repetit
 This is a window manager for mac. Pain point - resizing and toggling your windows with a mouse is slow, and you never really make the most of the space. 
 Spectable decreases window resize time by an order of magniture. This can literaly save you an hour or two per day. 
 
-(Alfred)[https://www.alfredapp.com/]
+[Alfred](https://www.alfredapp.com/)
 
 Next js code splitting, routing out of the box. Dynamic imports and static exports. Warning combining dynamic imports and static exports can cause your app to disappear into pure energy. 
 
