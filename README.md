@@ -9,9 +9,13 @@ thing to take away from this is that if you find yourself doing anything repetit
 This is a window manager for mac. Pain point - resizing and toggling your windows with a mouse is slow, and you never really make the most of the space. 
 Spectable decreases window resize time by an order of magniture. This can literaly save you an hour or two per day. 
 
-[Alfred](https://www.alfredapp.com/)
+[Alfred](https://www.alfredapp.com/) Alfred is like finder and spotlight had a kid and pumped it full of steroids. [Good article from a Canadian about Alfred](https://medium.com/@rurka/kill-the-dock-for-macos-dcb1d4ba8c8c)
 
-Next js code splitting, routing out of the box. Dynamic imports and static exports. Warning combining dynamic imports and static exports can cause your app to disappear into pure energy. 
+[Next.js](https://github.com/zeit/next.js/) Create-react-app is amazing for rapid prototyping of a component or a series of components. But there are some things that create-react-app doesn't do out of the box. 
+
+1 - Code splitting, routing out of the box, static exports AKA no node instance. Dynamic imports at the component level. 
+
+Warning combining dynamic imports and static exports can cause your app to disappear into pure energy. 
 
 Glamorous. Pain point that it solves. Gives you a clean way to wrap your styling into a component and recycle. 
 It's nice once you are thinking in the react idea of components, to stop trying to use a document model and selectors to manage styling. What works better is 
