@@ -13,9 +13,21 @@ Spectable decreases window resize time by an order of magniture. This can litera
 
 [Next.js](https://github.com/zeit/next.js/) Create-react-app is amazing for rapid prototyping of a component or a series of components. But there are some things that create-react-app doesn't do out of the box. 
 
-1 - Code splitting, routing out of the box, static exports AKA no node instance. Dynamic imports at the component level. 
+Code splitting, routing out of the box, static exports AKA no node instance. Dynamic imports at the component level. HOWEVER since next is a bit bleeding edge there are some compatability issues. 
 
 Warning combining dynamic imports and static exports can cause your app to disappear into pure energy. 
+
+Finally material-ui. 
+```
+create-react-app material-demo
+cd material-demo
+yarn start
+```
+Now lets add in everything we need to get material ui working 
+
+```
+yarn add material-ui
+yarn add react-tap-event-plugin
 
 Glamorous. Pain point that it solves. Gives you a clean way to wrap your styling into a component and recycle. 
 It's nice once you are thinking in the react idea of components, to stop trying to use a document model and selectors to manage styling. What works better is 
